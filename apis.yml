@@ -1,7 +1,24 @@
 aid: zappli
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zappli.png
 name: Zappli
-description: Zappli is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Zappli was an early mobile-commerce startup, maker of the myShopanion iPhone
+  shopping app, which let consumers browse and shop retail products and share their finds
+  and purchases across social networks such as Facebook and Twitter to get real-time feedback
+  from friends and family. Backed by 500 Global (500 Startups), Founders' Co-op, Techstars,
+  and the Webb Investment Network, Zappli was acquired by Connexity in July 2013 and is no
+  longer operating. It publishes no public API, developer portal, or API documentation, and
+  the zappli.com domain no longer serves a live website.
 url: https://raw.githubusercontent.com/api-evangelist/zappli/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +26,19 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-acquired-by: Connexity
+x-acquired-date: '2013-07-11'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Mobile Commerce
+- Shopping
+- Social Commerce
+- Retail
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +48,8 @@ maintainers:
 common:
 - type: Website
   url: https://zappli.com
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
